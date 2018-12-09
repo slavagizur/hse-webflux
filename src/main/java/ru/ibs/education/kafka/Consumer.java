@@ -16,6 +16,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Считыватель для данных из очереди.
+ *
+ * @author vbotalov
  */
 public class Consumer {
 

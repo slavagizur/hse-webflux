@@ -7,6 +7,8 @@ import java.util.Properties;
 
 /**
  * Записыватель в очередь.
+ *
+ * @author vbotalov
  */
 public class Producer {
 
