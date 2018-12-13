@@ -34,5 +34,5 @@ kafka-topics.sh --create --zookeeper zookeeper:2181 --topic calcRes --partitions
 Для запуска упакованного в контейнер приложения
 
 ```
-docker run --name hse-webflux -e kafka.url=URL_kafka -d hse-webflux:latest
+docker run --name hse-webflux -p 8080:8080 -e kafka.url=URL_kafka -d hse-webflux:latest
 ```
